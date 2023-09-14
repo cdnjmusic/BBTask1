@@ -1,9 +1,10 @@
+import React from 'react';
 import './App.css';
 
-function App() {
-  const logoUrl = 'https://www.propelleraero.com/wp-content/uploads/2021/05/Vector.svg';
-  const linkUrl = 'https://www.propelleraero.com/dirtmate/';
+// Import the logo and link constants
+import { logoUrl, linkUrl } from './constants'; // Create a separate constants.js file
 
+function App() {
   return (
     <div className="App">
       <header className="App-header">
